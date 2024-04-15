@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KhaZa Bike Workshop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="brand">
+            <a href="index.html">KhaZa Workshop</a>
+        </div>
+        <div class="nav-links">
+            <a href="shopping.html">Shop</a>
+            <a href="appointment.html">Appointment</a>
+            <a href="admin_login.html">Admin</a>
+        </div>
+        <div class="account">
+            <a href="cust_login.html">Log In</a>
+            <a href="view_cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <h1>Welcome to KhaZa Bike Workshop</h1>
+        <button class="btn" onclick="redirectToAppointment()">Book Now</button>
+        <button class="btn" onclick="redirectToShopping()">Shop Now</button>
+    </section>
+
+    <!-- Middle Section -->
+    <section class="photo-cards">
+        <!-- Populate with JavaScript -->
+    </section>
+
+    <!-- Bottom Section -->
+    <section class="sales-items">
+        <h2>Items on Sale</h2>
+        <div class="sales-item">
+            <img src="pics/featured7.jpeg" alt="Item 1">
+            <h3>Standard Bike Basket</h3>
+            <p>Standard for C70, GBO, EX5, SS110, Y110, Y80</p>
+            <p class="price">RM19.90</p>
+        </div>
+        <div class="sales-item">
+            <img src="pics/featured6.webp" alt="Item 2">
+            <h3>Bike Box</h3>
+            <p>ORIGINAL GIVI Box BOLT B34N</p>
+            <p class="price">Rm59.90</p>
+        </div>
+        <div class="sales-item">
+            <img src="pics/featured8.jpeg" alt="Item 3">
+            <h3>Side Mirror</h3>
+            <p>Description of item 3.</p>
+            <p class="price">RM30</p>
+        </div>
+        <div class="sales-item">
+            <img src="pics/featured1.jpeg" alt="Item 4">
+            <h3>Paddock Stand</h3>
+            <p>Description of item 4.</p>
+            <p class="price">RM80</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        function redirectToAppointment() {
+            window.location.href = "appointment.html";
+        }
+        
+        function redirectToShopping() {
+            window.location.href = "shopping.html";
+        }
+    </script>
+</body>
+</html>

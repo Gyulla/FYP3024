@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Signup - KhaZa Bike Workshop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="brand">
+            <a href="index.html">KhaZa Workshop</a>
+        </div>
+        <div class="nav-links">
+            <a href="shopping.html">Shop</a>
+            <a href="appointment.html">Appointment</a>
+            <a href="admin_login.html">Admin</a>
+        </div>
+        <div class="account">
+            <a href="cust_login.html">Log In</a>
+            <a href="view_cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </nav>
+
+    <!-- Signup Form -->
+    <section class="signup-form">
+        <h2>Customer Signup</h2>
+        <form id="signupForm" action="signup.php" method="POST">
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

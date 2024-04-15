@@ -1,0 +1,426 @@
+/* Navbar Styles */
+.navbar {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.brand a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.account a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Banner Styles */
+.banner {
+    background-image: url('banner_image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner h1 {
+    color: red;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Photo Cards Styles */
+.photo-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.photo-card {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    margin: 10px;
+    background-size: cover; /* Ensure background image covers the container */
+    background-position: center; /* Center the background image */
+    border-radius: 8px;
+}
+
+/* Adjust width and height as needed */
+
+
+/* Sales Items Styles */
+.sales-items {
+    background-color: orange;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.sales-item {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sales-item img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.sales-item h3 {
+    color: #333;
+    font-size: 1.2em;
+}
+
+.sales-item p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.sales-item .price {
+    color: red;
+    font-weight: bold;
+}
+
+/* Shopping Items Styles */
+/* Adjust styles to display three items per row */
+.shopping-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Center items horizontally */
+    padding: 20px; /* Add padding to container */
+}
+
+.shopping-item {
+    flex-basis: calc(33.33% - 20px); /* Adjust width to fit three items per row */
+    margin-bottom: 20px;
+    background-color: #f9f9f9; /* Add background color */
+    border-radius: 8px; /* Add border radius */
+    overflow: hidden; /* Hide overflow content */
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center children horizontally */
+    text-align: center; /* Center text */
+}
+
+.shopping-item img {
+    width: 100%;
+    max-width: 100%; /* Set max-width for images */
+    border-bottom: 1px solid #ddd; /* Add bottom border */
+}
+
+.item-details {
+    padding: 20px;
+    width: 100%; /* Ensure details take full width */
+}
+
+.item-details h3 {
+    margin-top: 0;
+}
+
+.item-details p {
+    margin-bottom: 10px;
+}
+
+.item-details .price {
+    font-weight: bold;
+}
+
+.item-details button {
+    background-color: #007bff; /* Change button color */
+    color: #fff; /* Change text color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.item-details button:hover {
+    background-color: #0056b3; /* Change button color on hover */
+}
+
+
+
+/* Form Styles */
+.appointment-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="date"],
+.form-group input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darkred;
+}
+
+/* Admin Login Form Styles */
+.admin-login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darkred;
+}
+
+/* Admin Dashboard Styles */
+.admin-dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.admin-dashboard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#customerOrders {
+    margin-bottom: 20px;
+}
+
+.order {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#logoutBtn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#logoutBtn:hover {
+    background-color: darkred;
+}
+
+/* Cart Items Styles */
+.cart-items {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cart-items h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#cartItems {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#checkoutBtn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#checkoutBtn:hover {
+    background-color: darkred;
+}
+
+/* Form Styles */
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darkred;
+}
+
+/* Form Styles */
+.signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darkred;
+}

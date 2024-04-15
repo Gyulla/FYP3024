@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - KhaZa Workshop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="brand">
+            <a href="index.html">KhaZa Workshop</a>
+        </div>
+        <div class="nav-links">
+            <a href="shopping.html">Shop</a>
+            <a href="appointment.html">Appointment</a>
+            <a href="admin_login.html">Admin</a>
+        </div>
+        <div class="account">
+            <a href="cust_login.html">Log In</a>
+            <a href="view_cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </nav>
+
+    <!-- Admin Dashboard Section -->
+    <section class="admin-dashboard">
+        <h2>Admin Dashboard</h2>
+        <!-- Display customer orders details here -->
+        <div id="customerOrders">
+            <!-- Orders will be populated dynamically using JavaScript -->
+        </div>
+        <button id="logoutBtn" class="btn">Sign Out</button>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="admin_dashboard.js"></script>
+</body>
+</html>
+
+
